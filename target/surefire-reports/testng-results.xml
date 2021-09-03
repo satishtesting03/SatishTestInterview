@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-02T21:28:44 BST" name="com.interview.test.TestRunner" finished-at="2021-09-02T21:29:38 BST" duration-ms="53733">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.interview.test.TestRunner@4c583ecf]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-09-02T21:28:44 BST" name="Command line test" finished-at="2021-09-02T21:29:38 BST" duration-ms="53733">
+      <class name="com.interview.test.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.interview.test.TestRunner@4c583ecf]" started-at="2021-09-02T21:28:44 BST" name="setUpClass" finished-at="2021-09-02T21:28:45 BST" duration-ms="333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.interview.test.TestRunner@4c583ecf]" started-at="2021-09-02T21:28:45 BST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-02T21:29:02 BST" duration-ms="17565" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search for the most expensive dress and add to the cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[CartCheckout]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.interview.test.TestRunner@4c583ecf]" started-at="2021-09-02T21:29:02 BST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-02T21:29:11 BST" duration-ms="8462" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the item is still in the cart once the user is logged in"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[CartCheckout]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.interview.test.TestRunner@4c583ecf]" started-at="2021-09-02T21:29:11 BST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-02T21:29:18 BST" duration-ms="7626" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Valiadte the user is logged in"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.interview.test.TestRunner@4c583ecf]" started-at="2021-09-02T21:29:18 BST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-02T21:29:38 BST" duration-ms="19670" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["New User Registration"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Registration]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='id_gender2']"}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-27BELD0V', ip: '192.168.1.69', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\anvik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52911}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4c76d29fb9bc914338fc5cc872a7a964
+*** Element info: {Using=xpath, value=//input[@id='id_gender2']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='id_gender2']"}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-27BELD0V', ip: '192.168.1.69', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\anvik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52911}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4c76d29fb9bc914338fc5cc872a7a964
+*** Element info: {Using=xpath, value=//input[@id='id_gender2']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.interview.test.pages.AccountRegistrationPage.MrsTitle(AccountRegistrationPage.java:21)
+at com.interview.test.steps.CreateAccount.iCompleteTheForm(CreateAccount.java:41)
+at ✽.I complete the form(file:///C:/Users/anvik/IdeaProjects/test-interview/src/test/resources/features/Registartion.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.interview.test.TestRunner@4c583ecf]" started-at="2021-09-02T21:29:38 BST" name="tearDownClass" finished-at="2021-09-02T21:29:38 BST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.interview.test.TestRunner -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.interview.test.TestRunner -->
+</testng-results>

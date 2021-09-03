@@ -1,0 +1,328 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I am on Login page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I login in with user \"satish.testing03@gmail.com\" and Passowrd \"Test0123\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "select Sign in button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user is succesfuuly Logged in",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-02T20:25:41.921Z",
+        "line": 12,
+        "name": "Search for the most expensive dress and add to the cart",
+        "description": "",
+        "id": "cartcheckout;search-for-the-most-expensive-dress-and-add-to-the-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I navigate to the page \"Dresses\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I select the Highest priced dress from the list",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 999700,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "I select Add item to the cart",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 996300,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "my item is added to the cart",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I am on Login page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I login in with user \"satish.testing03@gmail.com\" and Passowrd \"Test0123\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16791100,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "select Sign in button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 996500,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user is succesfuuly Logged in",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-02T20:25:42.012Z",
+        "line": 19,
+        "name": "Verify the item is still in the cart once the user is logged in",
+        "description": "",
+        "id": "cartcheckout;verify-the-item-is-still-in-the-cart-once-the-user-is-logged-in",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 999100,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "item is still in the cart",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CartCheckout",
+    "description": "  As a user\n  I want to be able to add items in the cart\n  So that I can purchase the items",
+    "id": "cartcheckout",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/CartCheckout.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-02T20:25:42.045Z",
+        "line": 7,
+        "name": "Valiadte the user is logged in",
+        "description": "",
+        "id": "login;valiadte-the-user-is-logged-in",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I am on Login page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I login in with user \"satish.testing03@gmail.com\" and Passowrd \"Test0123\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "select Sign in button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user is succesfuuly Logged in",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UI"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "  As a user\n  I want to be able to login\n  So that I can see my account",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": [
+      {
+        "name": "@UI",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-02T20:25:42.076Z",
+        "line": 7,
+        "name": "New User Registration",
+        "description": "",
+        "id": "registration;new-user-registration",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I am on the Regsitartion page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "i provide a email",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Click on Create an account button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I complete the form",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "the account is created",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UI"
+          }
+        ]
+      }
+    ],
+    "name": "Registration",
+    "description": "  As a user\n  I want to be able to complete the registration\n  So that the user can be created",
+    "id": "registration",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Registartion.feature",
+    "tags": [
+      {
+        "name": "@UI",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

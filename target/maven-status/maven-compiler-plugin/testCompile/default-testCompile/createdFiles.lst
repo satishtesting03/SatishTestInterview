@@ -1,0 +1,11 @@
+com\interview\test\pages\IndexPage.class
+com\interview\test\steps\CreateAccount.class
+com\interview\test\pages\AccountRegistrationPage.class
+com\interview\test\steps\CartSteps.class
+com\interview\test\drivers\Driver.class
+com\interview\test\steps\LoginSteps.class
+com\interview\test\pages\HomePage.class
+com\interview\test\pages\CategoryPage.class
+com\interview\test\pages\LoginPage.class
+com\interview\test\steps\CommonSteps.class
+com\interview\test\TestRunner.class
